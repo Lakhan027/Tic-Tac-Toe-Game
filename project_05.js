@@ -446,7 +446,7 @@ const data = (index, btn) => {
         newDiv.innerText = `O Player wins`;
         maininfo.append(newDiv);
 
-    } else if (checkWinner('X')) {
+    } else if (checkWinner('X',increment)) {
         const newDiv = document.createElement('div');
         newDiv.setAttribute('class', 'output');
         newDiv.innerText = `X Player wins`;
